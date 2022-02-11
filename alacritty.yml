@@ -852,18 +852,100 @@
   #print_events: false
 
 
+
+
+
+
+
+##############
+##  CUSTOM  ##
+##############
+
+# Uncomment the line containing the theme your choice
+
+import:
+#  - ~/.config/alacritty/themes/Afterglow.yml
+#  - ~/.config/alacritty/themes/Argonaut.yml
+#  - ~/.config/alacritty/themes/Ayudark.yml
+#  - ~/.config/alacritty/themes/Ayumirage.yml
+#  - ~/.config/alacritty/themes/Base16Defaultdark.yml
+#  - ~/.config/alacritty/themes/Bloodmoon.yml
+#  - ~/.config/alacritty/themes/Breeze.yml
+#  - ~/.config/alacritty/themes/Campbell.yml
+#  - ~/.config/alacritty/themes/Cobalt2.yml
+#  - ~/.config/alacritty/themes/Cyberpunk-Neon.yml
+#  - ~/.config/alacritty/themes/Darkside.yml
+#  - ~/.config/alacritty/themes/Darktooth.yml
+#  - ~/.config/alacritty/themes/Dracula.yml
+#  - ~/.config/alacritty/themes/Github.yml
+#  - ~/.config/alacritty/themes/Gnome-Light.yml
+#  - ~/.config/alacritty/themes/Gnome-Dark.yml
+#  - ~/.config/alacritty/themes/Gruvbox-Light.yml
+#  - ~/.config/alacritty/themes/Gruvbox-Dark.yml
+#  - ~/.config/alacritty/themes/Hybrid.yml
+#  - ~/.config/alacritty/themes/Hyper.yml
+#  - ~/.config/alacritty/themes/Iceberg-Light.yml
+#  - ~/.config/alacritty/themes/Iceberg-Dark.yml
+#  - ~/.config/alacritty/themes/Irblack.yml
+#  - ~/.config/alacritty/themes/Itermdefault.yml
+#  - ~/.config/alacritty/themes/Jellybeans.yml
+#  - ~/.config/alacritty/themes/Kitty.yml
+#  - ~/.config/alacritty/themes/Materialtheme.yml
+#  - ~/.config/alacritty/themes/Molokai.yml
+#  - ~/.config/alacritty/themes/Monokai.yml
+#  - ~/.config/alacritty/themes/Monokaipro.yml
+#  - ~/.config/alacritty/themes/Monokaisoda.yml
+#  - ~/.config/alacritty/themes/Newmoon.yml
+#  - ~/.config/alacritty/themes/Nightfly.yml
+#  - ~/.config/alacritty/themes/Nightowl.yml
+#  - ~/.config/alacritty/themes/Nord.yml
+#  - ~/.config/alacritty/themes/Nova.yml
+#  - ~/.config/alacritty/themes/Oceanbreeze.yml
+#  - ~/.config/alacritty/themes/Oceanicnext.yml
+#  - ~/.config/alacritty/themes/One-Light.yml
+ - ~/.config/alacritty/themes/One-Dark.yml
+#  - ~/.config/alacritty/themes/Oxide.yml
+#  - ~/.config/alacritty/themes/Panda.yml
+#  - ~/.config/alacritty/themes/Papercolors.yml
+#  - ~/.config/alacritty/themes/Pear.yml
+#  - ~/.config/alacritty/themes/Pencil-Light.yml
+#  - ~/.config/alacritty/themes/Pencil-Dark.yml
+#  - ~/.config/alacritty/themes/Pop_Os.yml
+#  - ~/.config/alacritty/themes/Seabird.yml
+#  - ~/.config/alacritty/themes/Seoul256-Light.yml
+#  - ~/.config/alacritty/themes/Seoul256-Dark.yml
+#  - ~/.config/alacritty/themes/Snazzy.yml
+#  - ~/.config/alacritty/themes/Solarized-Light.yml
+#  - ~/.config/alacritty/themes/Solarized-Dark.yml
+#  - ~/.config/alacritty/themes/Sourcerer.yml
+#  - ~/.config/alacritty/themes/Spacemacslight.yml
+#  - ~/.config/alacritty/themes/Substrata.yml
+#  - ~/.config/alacritty/themes/Taerminal.yml
+#  - ~/.config/alacritty/themes/Tango.yml
+#  - ~/.config/alacritty/themes/Tangoish.yml
+#  - ~/.config/alacritty/themes/Tender.yml
+#  - ~/.config/alacritty/themes/Terminalapp-Light.yml
+#  - ~/.config/alacritty/themes/Terminalapp-Dark.yml
+#  - ~/.config/alacritty/themes/Tokyo-Night-Storm.yml
+#  - ~/.config/alacritty/themes/Tokyo-Night.yml
+#  - ~/.config/alacritty/themes/Tomorrownight.yml
+#  - ~/.config/alacritty/themes/Tomorrownightbright.yml
+#  - ~/.config/alacritty/themes/Ubuntu.yml
+#  - ~/.config/alacritty/themes/Visualstudiocodeterminal.yml
+#  - ~/.config/alacritty/themes/Wombat.yml
+#  - ~/.config/alacritty/themes/Xterm.yml
+#  - ~/.config/alacritty/themes/Zenburn.yml
+
+
 font:
-  size: 13
+  size: 12
   normal:
-    family: Source Code Pro
-    style: Medium
+    family: MesloLGS NF
+    style: Regular
 
 draw_bold_text_with_bright_colors: true
 
-import:
-  - ~/.config/alacritty/themes.yml
-
 cursor:
   style:
-    shape: Beam
-    blinking: Always
+    shape: Block
+    blinking: Never
