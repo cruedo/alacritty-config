@@ -1,4 +1,4 @@
-  Papercolors: &Papercolors
+Papercolors: &Papercolors
   primary:
     background: "#eeeeee"
     foreground: "#444444"

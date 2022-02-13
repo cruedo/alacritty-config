@@ -903,7 +903,7 @@ import:
 #  - ~/.config/alacritty/themes/Oceanbreeze.yml
 #  - ~/.config/alacritty/themes/Oceanicnext.yml
 #  - ~/.config/alacritty/themes/One-Light.yml
- - ~/.config/alacritty/themes/One-Dark.yml
+  - ~/.config/alacritty/themes/One-Dark.yml
 #  - ~/.config/alacritty/themes/Oxide.yml
 #  - ~/.config/alacritty/themes/Panda.yml
 #  - ~/.config/alacritty/themes/Papercolors.yml
@@ -949,3 +949,6 @@ cursor:
   style:
     shape: Block
     blinking: Never
+
+# window:
+#   opacity: 0.75
